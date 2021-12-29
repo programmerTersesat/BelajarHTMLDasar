@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Latihan Membuat Formulir</h2> <br>
+    <form action="">
+        <p>
+            Nama : <br>
+            <input type="text" name="nama" placeholder="Nama Lengkap Anda"/>
+        </p>
+        <p>
+            Email : <br>
+            <input type="email" name="email" placeholder="Email Anda"/>
+        </p>
+        <p>
+            Password : <br>
+            <input type="password" name="password" placeholder="Password Anda"/>
+        </p>
+        <p>
+            Tanggal : <br>
+            <input type="date" name="tanggal_lahir" placeholder="Tanggal Lahir Anda"/>
+        </p>
+        <p>
+            Waktu : <br>
+            <input type="time" name="waktu_lahir" placeholder="Waktu Lahir Anda"/>
+        </p>
+
+        <p>
+            Angka : <br>
+            <input type="number" name="angka" placeholder="angka" min="2" max="10" />
+        </p>
+
+        <p>
+            Range : <br>
+            <input type="range" name="range"  min="2" max="10" />
+        </p>
+
+        <p>
+            Color : <br>
+            <input type="color" name="color" />
+        </p>
+        <p>
+            Text Area : <br>
+            <textarea name="alamat"  cols="20" rows="3"></textarea>
+        </p>
+        <p>
+            Radio Button : <br>
+            <input type="radio" name="jenis_kelamin" value="LAki - laki" /> Laki - laki <br>
+            
+            <input type="radio" name="jenis_kelamin" value="Perempuan" /> Perempuan 
+        </p>
+        <p>
+            Check Box : <br>
+            <input type="checkbox" name="sepeda" value="Sepeda" /> Sepeda <br>
+            <input type="checkbox" name="berenang" value="Berenang" /> Berenang <br>
+            <input type="checkbox" name="hiking" value="Hiking" /> Hiking <br>
+            <input type="checkbox" name="memasak" value="Memasak" /> Memasak <br>
+            <input type="checkbox" name="main_game" value="Main Game" /> Main Game <br>
+        </p>
+        <p>
+            Drop Down: <br>
+            <select name="kota" >
+                <option value="jakarta">Jakarta</option>
+                <option value="bogor">Bogor</option>
+                <option value="semarang">Semarang</option>
+                <option value="surabaya">Surabaya</option>
+            </select>
+        </p>
+        <p>
+            Submit : <br>
+            <input type="submit" name="proses" value="Simpan" />
+            <input type="reset" name="reset" value="Kosongkan" />
+        </p>
+    </form>
+</body>
+</html>
